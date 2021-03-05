@@ -1,5 +1,9 @@
 # Import the csv module
 import csv
+# Import counter module
+from collections import counter
+# Import datetime module
+from datetime import datetime
 
 # Create the file object: csvfile
 csvfile = open('crime_sampler.csv', 'r')
