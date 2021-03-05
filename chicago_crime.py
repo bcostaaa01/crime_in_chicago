@@ -23,5 +23,6 @@ crime_data.pop(0)
 # Print the first 10 records
 print(crime_data[:10])
 
-
+# Create a Counter Object: crimes_by_month
+crimes_by_month = Counter()
 
