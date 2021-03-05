@@ -34,3 +34,6 @@ for row in crime_data:
     
     # Increment the counter for the month of the row by one
     crimes_by_month[date.month] += 1
+    
+# Print the 3 most common months for crime
+print(crimes_by_month.most_common(3))
